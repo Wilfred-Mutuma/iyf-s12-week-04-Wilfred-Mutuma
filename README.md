@@ -25,10 +25,12 @@ It also includes a calculator, a Student Grade Tracker, and five daily JavaScrip
 ## Project Files
 
 ```text
+
 iyf-s12-week-04-Wilfred-Mutuma/
 ├── .gitignore
 ├── index.html
 ├── main.js
+├── grade-tracker.js
 ├── README.md
 └── daily-challenges/
     ├── day-1-fizzbuzz.js
@@ -36,6 +38,7 @@ iyf-s12-week-04-Wilfred-Mutuma/
     ├── day-3-largest-number.js
     ├── day-4-remove-duplicates.js
     └── day-5-palindrome-checker.js
+
 ```
 
 ## Task 7: JavaScript Fundamentals
@@ -86,7 +89,16 @@ The project can also be opened in Visual Studio Code. The daily challenge files 
 
 ## What I Learned
 
-Through these exercises, I practiced writing JavaScript, using functions to solve problems, controlling program flow, manipulating arrays and objects, and working with JSON data.
+- `const` and `let` help declare variables without using `var`.
+- `===` checks both value and data type.
+- Functions can return results so they can be reused.
+- `if...else` statements and loops control program flow.
+- `map()`, `filter()`, `find()`, and `reduce()` help process arrays.
+- Objects can store related student information and grades.
+- `JSON.stringify()` converts JavaScript data into JSON text, while `JSON.parse()` converts valid JSON text back into JavaScript data.
+- I used a loop and `reduce()` to find the largest number in an array.
+- I built a calculator and a Student Grade Tracker with reusable methods.
+
 
 ## Project Status
 
