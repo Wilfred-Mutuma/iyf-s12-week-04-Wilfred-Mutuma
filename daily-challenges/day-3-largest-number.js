@@ -1,13 +1,41 @@
 
 /*
  * Day 3 Challenge: Find the Largest Number
- * Find and return the largest number in an array.
+ * Find the largest number using a loop and reduce().
  */
 
-function findLargest(numbers) {
-    return Math.max(...numbers);
+// Method 1: Using a for loop
+function findLargestWithLoop(numbers) {
+    if (numbers.length === 0) {
+        return null;
+    }
+
+    let largest = numbers[0];
+
+    for (let i = 1; i < numbers.length; i++) {
+        if (numbers[i] > largest) {
+            largest = numbers[i];
+        }
+    }
+
+    return largest;
 }
 
-console.log("Largest in [4, 9, 2, 15, 7]:", findLargest([4, 9, 2, 15, 7]));
-console.log("Largest in [10, 25, 3, 8]:", findLargest([10, 25, 3, 8]));
-console.log("Largest in [-5, -2, -10]:", findLargest([-5, -2, -10]));
+// Method 2: Using reduce()
+function findLargestWithReduce(numbers) {
+    if (numbers.length === 0) {
+        return null;
+    }
+
+    return numbers.reduce((largest, current) => {
+        return current > largest ? current : largest;
+    });
+}
+
+// Test both methods
+const numbers = [4, 9, 2, 15, 7];
+
+console.log("Using loop:", findLargestWithLoop(numbers));
+console.log("Using reduce():", findLargestWithReduce(numbers));
+console.log("Negative numbers:", findLargestWithReduce([-5, -2, -10]));
+console.log("Empty array:", findLargestWithReduce([]));
