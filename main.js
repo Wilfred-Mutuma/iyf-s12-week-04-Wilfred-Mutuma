@@ -184,6 +184,9 @@ for (let color of colors) {
 
 console.log("----- CALCULATOR MINI-PROJECT -----");
 
+
+console.log("----- CALCULATOR MINI-PROJECT -----");
+
 function calculate(num1, operator, num2) {
     if (operator === "+") {
         return num1 + num2;
@@ -196,6 +199,13 @@ function calculate(num1, operator, num2) {
             return "Error: Cannot divide by zero.";
         }
         return num1 / num2;
+    } else if (operator === "%") {
+        if (num2 === 0) {
+            return "Error: Cannot calculate modulo by zero.";
+        }
+        return num1 % num2;
+    } else if (operator === "**") {
+        return num1 ** num2;
     } else {
         return "Error: Invalid operator.";
     }
@@ -207,6 +217,9 @@ console.log("10 * 5 =", calculate(10, "*", 5));
 console.log("10 / 5 =", calculate(10, "/", 5));
 console.log("10 / 0 =", calculate(10, "/", 0));
 console.log("10 % 5 =", calculate(10, "%", 5));
+console.log("10 % 3 =", calculate(10, "%", 3));
+console.log("2 ** 3 =", calculate(2, "**", 3));
+console.log("Invalid operator =", calculate(10, "?", 5));
 
 
 console.log("----- ARRAYS PRACTICE -----");
