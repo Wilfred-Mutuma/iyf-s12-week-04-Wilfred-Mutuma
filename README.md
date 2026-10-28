@@ -52,7 +52,7 @@ The `main.js` file contains practice exercises covering:
 - Function declarations and return values
 - `if`, `else if`, and `else` statements
 - `for`, `while`, and `for...of` loops
-- A calculator supporting addition, subtraction, multiplication, and division
+- A calculator supporting addition, subtraction, multiplication, division, modulus (%), and exponentiation (**)
 
 ## Task 8: Arrays, Objects, and JSON
 
@@ -72,7 +72,7 @@ The `daily-challenges/` folder contains five JavaScript exercises.
 
 | File | Challenge |
 |---|---|
-| `day-1-fizzbuzz.js` | Print FizzBuzz results for numbers 1–20 |
+| `day-1-fizzbuzz.js` | Print FizzBuzz results for numbers 1–100 |
 | `day-2-reverse-string.js` | Reverse a string |
 | `day-3-largest-number.js` | Find the largest number in an array |
 | `day-4-remove-duplicates.js` | Remove duplicate values from an array |
