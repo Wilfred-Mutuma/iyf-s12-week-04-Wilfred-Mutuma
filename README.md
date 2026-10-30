@@ -1,4 +1,3 @@
-
 # Week 4: JavaScript Fundamentals
 
 **Student:** Wilfred Mutuma  
@@ -24,22 +23,18 @@ It also includes a calculator, a Student Grade Tracker, and five daily JavaScrip
 
 ## Project Files
 
-```text
-
 iyf-s12-week-04-Wilfred-Mutuma/
-├── .gitignore
-├── index.html
-├── main.js
-├── grade-tracker.js
-├── README.md
-└── daily-challenges/
-    ├── day-1-fizzbuzz.js
-    ├── day-2-reverse-string.js
-    ├── day-3-largest-number.js
-    ├── day-4-remove-duplicates.js
-    └── day-5-palindrome-checker.js
-
-```
+|-- .gitignore
+|-- index.html
+|-- main.js
+|-- grade-tracker.js
+|-- README.md
+`-- daily-challenges/
+    |-- day-1-fizzbuzz.js
+    |-- day-2-reverse-string.js
+    |-- day-3-largest-number.js
+    |-- day-4-remove-duplicates.js
+    `-- day-5-palindrome-checker.js
 
 ## Task 7: JavaScript Fundamentals
 
@@ -72,7 +67,7 @@ The `daily-challenges/` folder contains five JavaScript exercises.
 
 | File | Challenge |
 |---|---|
-| `day-1-fizzbuzz.js` | Print FizzBuzz results for numbers 1–100 |
+| `day-1-fizzbuzz.js` | Print FizzBuzz results for numbers 1 to 100 |
 | `day-2-reverse-string.js` | Reverse a string |
 | `day-3-largest-number.js` | Find the largest number in an array |
 | `day-4-remove-duplicates.js` | Remove duplicate values from an array |
@@ -99,7 +94,6 @@ The project can also be opened in Visual Studio Code. The daily challenge files 
 - I used a loop and `reduce()` to find the largest number in an array.
 - I built a calculator and a Student Grade Tracker with reusable methods.
 
-
 ## Project Status
 
 - [x] Main HTML page created
@@ -107,8 +101,8 @@ The project can also be opened in Visual Studio Code. The daily challenge files 
 - [x] Calculator function implemented
 - [x] Student Grade Tracker created
 - [x] Five daily challenge files created
-- [ ] Final testing completed
-- [ ] Changes committed and pushed to GitHub
+- [x] Final testing completed
+- [x] Changes committed and pushed to GitHub
 
 ## Author
 
