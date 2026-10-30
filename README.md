@@ -23,18 +23,25 @@ It also includes a calculator, a Student Grade Tracker, and five daily JavaScrip
 
 ## Project Files
 
+## Project Files
+
+```text
 iyf-s12-week-04-Wilfred-Mutuma/
+|
 |-- .gitignore
 |-- index.html
 |-- main.js
 |-- grade-tracker.js
 |-- README.md
+|
 `-- daily-challenges/
+    |
     |-- day-1-fizzbuzz.js
     |-- day-2-reverse-string.js
     |-- day-3-largest-number.js
     |-- day-4-remove-duplicates.js
     `-- day-5-palindrome-checker.js
+```
 
 ## Task 7: JavaScript Fundamentals
 
